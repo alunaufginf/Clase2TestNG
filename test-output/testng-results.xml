@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25090" started-at="2021-06-06T00:53:18Z" finished-at="2021-06-06T00:53:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25090" started-at="2021-06-06T00:53:18Z" finished-at="2021-06-06T00:53:43Z">
+      <class name="pe.visorweb.categoria.EditarCategoriaPomTest">
+        <test-method status="PASS" signature="configurarDriver()[pri:0, instance:pe.visorweb.categoria.EditarCategoriaPomTest@7a4ccb53]" name="configurarDriver" is-config="true" duration-ms="6809" started-at="2021-06-05T19:53:18Z" finished-at="2021-06-05T19:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurarDriver -->
+        <test-method status="PASS" signature="testEditarCategoriaExitosa()[pri:0, instance:pe.visorweb.categoria.EditarCategoriaPomTest@7a4ccb53]" name="testEditarCategoriaExitosa" duration-ms="17675" started-at="2021-06-05T19:53:25Z" finished-at="2021-06-05T19:53:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditarCategoriaExitosa -->
+        <test-method status="PASS" signature="cerrarDriver()[pri:0, instance:pe.visorweb.categoria.EditarCategoriaPomTest@7a4ccb53]" name="cerrarDriver" is-config="true" duration-ms="539" started-at="2021-06-05T19:53:42Z" finished-at="2021-06-05T19:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarDriver -->
+      </class> <!-- pe.visorweb.categoria.EditarCategoriaPomTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

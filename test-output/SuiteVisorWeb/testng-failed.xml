@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteVisorWeb]">
+  <test name="TestCategoriaPom">
+    <classes>
+      <class name="pe.visorweb.categoria.CategoriaPomTest"/>
+    </classes>
+  </test> <!-- TestCategoriaPom -->
+  <test name="TestCategoriaPom(failed)">
+    <classes>
+      <class name="pe.visorweb.categoria.CategoriaPomTest">
+        <methods>
+          <include name="testInsertarCategoriaDatosVacios"/>
+          <include name="testInsertarCategoriaExitosa"/>
+          <include name="configurarDriver"/>
+          <include name="cerrarDriver"/>
+        </methods>
+      </class> <!-- pe.visorweb.categoria.CategoriaPomTest -->
+    </classes>
+  </test> <!-- TestCategoriaPom(failed) -->
+</suite> <!-- Failed suite [SuiteVisorWeb] -->
